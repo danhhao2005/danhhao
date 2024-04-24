@@ -28,12 +28,12 @@ void delete_char(const char a[], char c){
         }
       }
 
-     for (int i = 1; i < x - sl + 1; i++){
+     for (int i = 0; i < x - sl + 1; i++){
         if (b[i] == c){
             b[i] = b[i + 1];
         }
      }
-     for (int i = 1; i < x - sl + 1; i++){
+     for (int i = 0; i < x - sl + 1; i++){
         cout << b[i];
      }
      cout << endl;
